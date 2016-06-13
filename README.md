@@ -2,7 +2,9 @@
 
 As of Team Foundation Server 2015 Update 2.1, there's is no built-in feature to track Work Items by Release. i.e. The common question from Project Management would be  'Has Work Item 555 been released yet? Which environments?'
 
-The repository is contains two projects
+![](Misc/ReleaseTracker.jpg)
+
+The repository is contains two projects:
 
 ##TFS extension 
 
