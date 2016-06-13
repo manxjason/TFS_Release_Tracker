@@ -30,7 +30,7 @@ There's no SDK available yet, at least one which includes the newer Release comp
 	- `NetworkUser`
 	- `NetworkPassword`
 	- `NetworkDomain`
-2. Create an IIS site for the *.WebUI project. **Ensure that the binding is `http://releasetracker`** as the TFS Extension calls 
+2. Create an IIS site for the .WebUI project. **Ensure that the binding is `http://releasetracker`** as the TFS Extension calls 
 3. Add an entry to your host file so the name resolves to IIS, and all user host files so the same binding resolves to the host server IP. e.g.
 	- TFS Server host file: `releasetracker 127.0.0.1`
 	- Server host file: `releasetracker 192.168.0.5` (the TFS Server host IP)
