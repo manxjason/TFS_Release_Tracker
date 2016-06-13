@@ -24,16 +24,14 @@ There's no SDK available yet, at least one which includes the newer Release comp
 
 ###Installation
 
-1. Clone the repo
-2. Build the project
-3. Add values to the following in your web.config
+1. Add values to the following in your web.config
 	- `default` connection string - e.g to your TFS Team Project database
 	- `TfsUrlAndCollectionName` - e.g http://servername:port/tfs/DefaultCollection/
 	- `NetworkUser`
 	- `NetworkPassword`
 	- `NetworkDomain`
-4. Create an IIS site for the *.WebUI project. **Ensure that the binding is `http://releasetracker`** as the TFS Extension calls 
-5. Add an entry to your host file so the name resolves to IIS, and all user host files so the same binding resolves to the host server IP. e.g.
+2. Create an IIS site for the *.WebUI project. **Ensure that the binding is `http://releasetracker`** as the TFS Extension calls 
+3. Add an entry to your host file so the name resolves to IIS, and all user host files so the same binding resolves to the host server IP. e.g.
 	- TFS Server host file: `releasetracker 127.0.0.1`
 	- Server host file: `releasetracker 192.168.0.5` (the TFS Server host IP)
 
