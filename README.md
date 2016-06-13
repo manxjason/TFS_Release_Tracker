@@ -12,7 +12,7 @@ Instead, the extension adds a new tab to the 'Work' section. A user can search b
 
 ###Installation
 1. Navigate to: `http://servername:8080/tfs/_gallery/manage`
-2. Upload New Extension, and select the .vsix file from the TFS Extension src folder
+2. Upload New Extension, and select the .vsix file from the TFS Extension folder
 
 ##Web API project.
 
@@ -36,5 +36,6 @@ There's no SDK available yet, at least one which includes the newer Release comp
 	- Server host file: `releasetracker 192.168.0.5` (the TFS Server host IP)
 
 ###Disclaimer
-
 This is a **temporary** solution while Microsoft develop an official SDK and/or feature. Use at your own risk.
+
+Built using Visual Studio 2015.
