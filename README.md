@@ -27,6 +27,7 @@ There's no SDK available yet, at least one which includes the newer Release comp
 1. Clone the repo
 2. Build the project
 3. Add values to the following in your web.config
+	- `default` connection string - e.g to your TFS Team Project database
 	- `TfsUrlAndCollectionName` - e.g http://servername:port/tfs/DefaultCollection/
 	- `NetworkUser`
 	- `NetworkPassword`
@@ -35,3 +36,7 @@ There's no SDK available yet, at least one which includes the newer Release comp
 5. Add an entry to your host file so the name resolves to IIS, and all user host files so the same binding resolves to the host server IP. e.g.
 	- TFS Server host file: `releasetracker 127.0.0.1`
 	- Server host file: `releasetracker 192.168.0.5` (the TFS Server host IP)
+
+###Disclaimer
+
+This is a **temporary** solution while Microsoft develop an official SDK and/or feature. Use at your own risk.
