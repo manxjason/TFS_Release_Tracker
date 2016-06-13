@@ -1,0 +1,54 @@
+﻿{
+  "manifestVersion": 1,
+  "id": "release-tracker",
+  "version": "1.0.1",
+  "name": "Release Tracker", 
+  "description": "Adds tab on User Stories which tracks relationships to Releases",
+  "publisher": "manxjason",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "release-tracker",
+      "type": "ms.vss-web.hub",
+      "description": "Release Tracker page",
+      "targets": [
+         "ms.vss-work-web.work-hub-group"
+      ],
+      "properties": {
+        "name": "Release Tracker",
+        "order":  99,
+        "uri": "ReleaseTracker.html"            
+      }
+    }
+  ],
+  "scopes": [
+         "vso.work"
+     ],
+  "files": [
+    {
+      "path": "ReleaseTracker.html",
+      "addressable": true
+    },
+    {
+      "path": "sdk",
+      "addressable": true
+    },
+    {
+      "path": "scripts",
+      "addressable": true
+    },
+    {
+      "path": "images",
+      "addressable": true
+    },
+	{
+      "path": "css",
+      "addressable": true
+    }
+    
+  ]
+}

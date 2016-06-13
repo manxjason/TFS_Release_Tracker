@@ -1,0 +1,50 @@
+
+    #release-tracker{
+		font-family: "Segoe UI","Helvetica Neue","Helvetica","Arial","Verdana";
+		color: black;
+		}	
+	
+	 #release-tracker p{
+		 font-size: 12px;
+	 }
+	
+	#release-tracker #title{
+		color: rgb(0,122,204);	
+	}
+	
+   	
+    #release-tracker .release {
+		display: inline-block;
+		margin-right: 1em;
+		font-size: 12px;
+	    min-width: 20em;
+		padding: 1em;
+		background-color: #fff;
+		border: 1px solid #ccc;
+	    height: auto;		
+     }
+   	
+	
+	
+	#release-tracker .details{
+		padding-left: 0;
+		margin-left: 0;
+		list-style-type: none;
+	}
+	
+	#release-tracker .details li{
+		margin-bottom: .5em;
+	}
+	#release-tracker .environments {
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+	
+	#release-tracker .release h3{
+		margin-bottom: .5em;		
+	}	
+	
+	#release-tracker .release a.view-link{
+		color: rgb(0,122,204);
+		margin-left: 28%;
+		}

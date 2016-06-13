@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <script src="sdk/scripts/VSS.SDK.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/rtstyle.css"/>
+<body>
+    <script> 
+        VSS.init();
+    </script>
+	
+<div id=release-tracker>	
+<h1 id="title">Release Tracker</h1>
+<p>Enter a Work Item number find any related releases. <strong>To view a release, right-click and 'Open in new tab'.</strong></p>
+    <input type="text" id="workItemId" placeholder="Enter Work Item Id" />
+    <input type="submit" id="searchButton" value="Search" />
+    <p id="error"></p>
+
+    <div id="releases"></div>
+
+</div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="scripts/releaseTracker.js"></script>
+    <script type="text/javascript">VSS.notifyLoadSucceeded();</script>
+</body>
+</html>
+
